@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background-color: darkkhaki;
+   
+}
+
+h1{
+    margin: 0px;
+
+   
+}
+header{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-underline-position: below;
+   
+}
+
+h2{
+    color: black;
+    margin: 0;
+
+
+}
+
+
+
+.portfolio{
+    text-decoration: black;
+   max-width: 88%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   
+
+
+}
+
+.section-heading{
+border-right:solid black;
+flex: 0 0 20%;
+}
+    
+    
+
+    
+
+
+p{
+    max-width: max-content;
+    scroll-padding-block: 50px;
+   
+}
+
+section{
+    max-height: max-content;
+}
+
+.hero-banner{
+    background-image: url("./02-hero-bg.jpeg");
+    min-height: 300px;
+    margin: 0;
+    background-size: cover;
+}
+
+.big-image{
+    background-image: url("./IMG_0736.JPG");
+    min-height: 200px;
+
+}
+
+.small-image{
+    background-image: url("./02-hero-bg.jpeg");
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
