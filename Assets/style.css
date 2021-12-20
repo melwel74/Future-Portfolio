@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: darkkhaki;
+    background-color:#8C8C8C;
    
 }
 
@@ -10,7 +10,7 @@ h1{
    
 }
 header{
-    background-color: beige;
+    background-color:#57523e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -76,6 +76,10 @@ section{
 .small-image{
     background-image: url("./02-hero-bg.jpeg");
     min-height: 100px;
+}
+
+nav{
+    flex-wrap: wrap;
 }
 
 
