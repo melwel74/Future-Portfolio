@@ -1,21 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
-    background-color:#8C8C8C;
+    background-color:#4b5936;
+    font-family: Helvetica, Arial, sans-serif;
    
 }
 
 h1{
-    margin: 0px;
+    font-weight: bold;
+    font-size: 70px;
+    color: black;
+    margin: 0;
+    display: inline;
+    
 
    
 }
 header{
-    background-color:#57523e;
+    background-color:#495f73;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 100px 50px;
+    padding-bottom: 90px;
     text-underline-position: below;
    
 }
@@ -23,6 +34,7 @@ header{
 h2{
     color: black;
     margin: 0;
+    font-weight: bold;
 
 
 }
@@ -32,9 +44,13 @@ h2{
 .portfolio{
     text-decoration: black;
    max-width: 88%;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 25px auto;
    display: flex;
+   font-size: 25px;
+   font-weight: 300px;
+   flex-wrap: wrap;
+   align-items: stretch;
+   justify-content: space-between;
    
 
 
@@ -52,20 +68,45 @@ flex: 0 0 20%;
 
 p{
     max-width: max-content;
-    scroll-padding-block: 50px;
+    scroll-padding-block: 90px;
+    font-size: larger;
    
 }
 
 section{
     max-height: max-content;
+    
 }
 
 .hero-banner{
-    background-image: url("./02-portfolio-1.jpeg");
+    background-image: url("./IMG_5212.JPG");
     min-height: 300px;
     margin: 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat:no-repeat;
 }
+
+.work-container{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+.work{
+min-height: 135px;
+max-height: 135px;
+flex-basis: calc(50% - 1em);
+display:flex;
+background-size: 150%;
+transition: all 0.5s;
+}
+.work:first-child{
+height: 350px;
+flex-basis: 100%;
+}
+
+
 
 .big-image{
     background-image: url("./IMG_0736.JPG");
@@ -76,11 +117,62 @@ section{
 .small-image{
     background-image: url("./02-hero-bg.jpeg");
     min-height: 100px;
+    background-size: cover;
 }
 
 nav{
+    display:flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
+
+nav a {
+    padding: 35px 35px;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 75px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 75px;
+    
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: bolder;
+    font-size: 1.55vw;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("../Assets/02-hero-bg.jpeg");
+    height: 600px;
+    background-repeat:no-repeat;
+}
+
+header nav {
+    font-size: x-large;
+}
+
+
+
+
 
 
 
